@@ -1,4 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { CustomLink } from './CustomLink';
 
 export function Layout() {
     return (
@@ -8,16 +9,16 @@ export function Layout() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <CustomLink to="/">Home</CustomLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <CustomLink to="/about">About</CustomLink>
             </li>
             <li>
-              <Link to="/dashboard">Dashboard</Link>
+              <CustomLink to="/dashboard">Dashboard</CustomLink>
             </li>
             <li>
-              <Link to="/nothing-here">Nothing Here</Link>
+              <CustomLink to="/nothing-here">Nothing Here</CustomLink>
             </li>
           </ul>
         </nav>

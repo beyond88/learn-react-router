@@ -4,6 +4,7 @@ import { Dashboard } from './05-03-2023/Dashboard';
 import { Home } from './05-03-2023/Home';
 import { Layout } from './05-03-2023/Layout';
 import { NoMatch } from './05-03-2023/NoMatch';
+import { CustomLink } from './05-03-2023/CustomLink';
 import './App.css';
 
 function App() {
